@@ -1,0 +1,37 @@
+.app {
+  background-color: #ef6c7b;
+  text-align: center;
+  width: 30%;
+  height: 100%;
+  margin: 0 auto;
+  border-radius: 50px;
+  color: #eee;
+}
+.head {
+  font-size: 20px;
+  width: 100%;
+}
+.nextsong {
+  margin-bottom: 15px;
+}
+
+@media (min-width: 100px) and (max-width: 700px) {
+  .app {
+    background-color: black;
+    text-align: center;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 50px;
+  }
+  .head {
+    color: blanchedalmond;
+    font-size: 20px;
+    width: 100%;
+  }
+  .nextsong {
+    color: #eee;
+
+    font-size: 10px;
+  }
+}
